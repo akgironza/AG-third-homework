@@ -115,19 +115,29 @@ console.log(secondFavMovies);
 // slice does not permanently alter the original array, it only returns the new portion of the array that was sliced from the original
 
 
-
-
-
-
-
-
-
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy, Frank"], "Eggbert", ["Lucinda", "Jacc", "Neff", "Snoop"], ["Petunia", ["Baked Goods", "Waldo"]]];
+//whereIsWaldo.splice(1, 1); -- I feel like I want to something to access the array in the array, but whenever I do .splice(1[2], 1...) or ([1][2]..) it doesn't work so I'm not quite sure but I do want to read more about this to figure it out
+//console.log(whereIsWaldo);
+
+
 ////////////////////////////////
 // Excited Kitten
 ////////////////////////////////
+// const randomInteger = 0 + (int)(Math.random() * ((2 - 0) + 1);
+
+/*for (i = 1; i < 21; i++){
+    console.log("Love me, pet me! HSSSSSS!");
+}
+*/
+
 ////////////////////////////////
 // Find the Median
 ////////////////////////////////
+
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12]
+nums.sort();
+let length = nums.length;
+console.log(nums[(Math.floor(length / 2))]);
