@@ -1,6 +1,18 @@
+/*
+4 - HTML Intro (tags, content, attributes, semantic HTML)
+4 - HTML Elements (headers, navigation, lists, sections, etc.) and Media (images, audio, videos)
+3 - CSS Intro (including css files in HTML, elements)
+3 - CSS Basics (colors, background, font properties)
+*/
+
 ////////////////////////////////
 // Easy Going
 ////////////////////////////////
+for(i = 1; i < 21; i++){
+    console.log(i);
+};
+
+
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
